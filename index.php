@@ -10,7 +10,7 @@
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
+    
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
@@ -19,6 +19,7 @@
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
@@ -113,7 +114,7 @@
 
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+          <div class="offset-lg-1 col-lg-5 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
 
       </div>
@@ -122,6 +123,7 @@
     <!--==========================
       Facts Section
     ============================-->
+<!--
     <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
@@ -153,7 +155,8 @@
   			</div>
 
       </div>
-    </section><!-- #facts -->
+    </section> #facts 
+-->
 
     <!--==========================
       Services Section
@@ -167,30 +170,30 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <div class="icon"><a href=""><i class="fa fa-gem"></i></a></div>
+              <h4 class="title"><a href="">Wedding</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <div class="icon"><a href=""><i class="fa fa-birthday-cake"></i></a></div>
+              <h4 class="title"><a href="">Birthday Party</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
               <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <h4 class="title"><a href="">Reception</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <div class="icon"><a href=""><i class="fa fa-cocktail"></i></a></div>
+              <h4 class="title"><a href="">Cocktail Party</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
           </div>
@@ -220,11 +223,11 @@
       <div class="container wow fadeIn">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 class="cta-title">Like What You See?</h3>
+            <p class="cta-text"> Get in touch with us and we will make your moments memorable </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#contact">Contact Us</a>
           </div>
         </div>
 
@@ -244,33 +247,64 @@
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-wedding, .filter-reception" class="filter-active">All</li>
+              <li data-filter=".filter-wedding, .filter-reception .filter-cocktail" class="filter-active">All</li>
               <li data-filter=".filter-wedding">Wedding</li>
               <li data-filter=".filter-reception">Reception</li>
-<!--
-              <li data-filter=".filter-logo">Logo</li>
-              <li data-filter=".filter-web">Web</li>
--->
+              <li data-filter=".filter-cocktail">Cocktail</li>
+<!--              <li data-filter=".filter-web">Web</li>-->
             </ul>
           </div>
         </div>
 
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-3 col-md-6 portfolio-item filter-wedding">
-            <a href="">
+<!--            <a href="" data-toggle="modal" data-target="#exampleModal">-->
+              <a href="">
               <img src="img/IMG_1477.JPG" >
               <div class="details">
-                <h4>App 1</h4>
+                <h4>Wedding 1</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
           </div>
+<!--
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+    <div class="modal-content">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/IMG_1488.JPG" style = "width: 500px;" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/IMG_6856.JPG" style = "width: 500px;" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/IMG_7727.JPG" style = "width: 500px;" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                     </div></div></div>
+-->
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-wedding">
             <a href="">
               <img src="img/IMG_1478.JPG" alt="">
               <div class="details">
-                <h4>Web 2</h4>
+                <h4>Wedding 2</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
@@ -278,9 +312,9 @@
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-wedding">
             <a href="">
-              <img src="img/IMG_1479.JPG" >
+              <img src="img/IMG_1479.JPG" style="width: 300px" >
               <div class="details">
-                <h4>App 3</h4>
+                <h4>Wedding 3</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
@@ -288,9 +322,9 @@
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-wedding">
             <a href="">
-              <img src="img/IMG_1485.JPG" alt="">
+              <img src="img/IMG_1485.JPG" style="width: 300px">
               <div class="details">
-                <h4>Card 1</h4>
+                <h4>Wedding 4</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
@@ -298,9 +332,9 @@
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-reception">
             <a href="">
-              <img src="img/IMG_6844.JPG" alt="">
+              <img src="img/IMG_6844.JPG" style="width: 300px">
               <div class="details">
-                <h4>Card 2</h4>
+                <h4>Reception 1</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
@@ -308,9 +342,9 @@
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-reception">
             <a href="">
-              <img src="img/IMG_6847.JPG" alt="">
+              <img src="img/IMG_6847.JPG" style="width: 300px">
               <div class="details">
-                <h4>Web 3</h4>
+                <h4>Reception 2</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
@@ -318,9 +352,9 @@
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-reception">
             <a href="">
-              <img src="img/IMG_6852.JPG" alt="">
+              <img src="img/IMG_6852.JPG" style="width: 300px">
               <div class="details">
-                <h4>Card 3</h4>
+                <h4>Reception 3</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
@@ -328,34 +362,35 @@
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-reception">
             <a href="">
-              <img src="img/IMG_6856.JPG" alt="">
+              <img src="img/IMG_6856.JPG" style="width: 300px">
               <div class="details">
-                <h4>App 2</h4>
+                <h4>Reception 4</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-cocktail">
             <a href="">
-              <img src="img/portfolio/logo1.jpg" alt="">
+              <img src="img/IMG_7727.JPG" style="width: 300px">
               <div class="details">
-                <h4>Logo 1</h4>
+                <h4>Cocktail 1</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-cocktail">
             <a href="">
-              <img src="img/portfolio/logo3.jpg" alt="">
+              <img src="img/IMG_8078.JPG" style="width: 300px">
               <div class="details">
-                <h4>Logo 3</h4>
+                <h4>Cocktail 2</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
           </div>
 
+<!--
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <a href="">
               <img src="img/portfolio/web1.jpg" alt="">
@@ -375,6 +410,7 @@
               </div>
             </a>
           </div>
+-->
 
         </div>
 
@@ -464,7 +500,7 @@
         </div>
       </div>
 
-      <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+<!--      <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>-->
 
       <div class="container wow fadeInUp">
         <div class="row justify-content-center">
@@ -489,11 +525,11 @@
             </div>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
             </div>
 
           </div>
@@ -512,7 +548,7 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="contact" id="contact" placeholder="Contact"/>
+                  <input type="text" class="form-control" name="contact" id="subject" placeholder="Contact"/>
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
