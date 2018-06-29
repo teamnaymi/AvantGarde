@@ -512,7 +512,7 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="contact" id="contact" placeholder="Contact"/>
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">

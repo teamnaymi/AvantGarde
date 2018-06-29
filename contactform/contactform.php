@@ -3,7 +3,7 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$contact = $_POST['subject'];
+$contact = $_POST['contact'];
 $email = filter_var($email, FILTER_SANITIZE_EMAIL); // Sanitizing E-mail.
 // After sanitization Validation is performed
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
