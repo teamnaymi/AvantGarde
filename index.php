@@ -91,9 +91,12 @@
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">About Us</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <strong>Avant Garde Creations</strong> is a brainchild of Hridaya and Nishkarsh Kripalani who are <strong>professional wedding planners</strong>. </p><p>
+                We have a dynamic team comprising of <strong>creative, talented and efficient</strong> people who have the ability to make your wedding, a once in a lifetime event, the most memorable experience of your life, as it should be. </p><p> 
+                Since the last 2 years, we has been providing <strong>exquisite</strong> and <strong>regale wedding experiences</strong> which are a dream come true for many of our clients with a wide variety of services offered.
             </p>
 
+<!--
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
@@ -111,6 +114,7 @@
               <h4 class="title"><a href="">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
+-->
 
           </div>
 
@@ -165,7 +169,7 @@
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Services</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">At Avant Garde Creations, we believe its all about the little details to complete the decorations of any event. Our team ensures that our clients' vision and requirements for any event is fully understood, so that we can make it a reality with our creativity.</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -177,14 +181,14 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-birthday-cake"></i></a></div>
-              <h4 class="title"><a href="">Birthday Party</a></h4>
+                <div class="icon"><a href=""><span class="fa-stack"><i class="fa fa-birthday-cake"></i></span></a></div>
+              <h4 class="title"><a href="">Birthday Celebration</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
+                <div class="icon"><a href=""><span class="fa-stack"><i class="fa fa-paper-plane"></i></span></a></div>
               <h4 class="title"><a href="">Reception</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
@@ -199,15 +203,15 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
+                <div class="icon"><a href=""><span class="fa-stack"><i class="fas fa-child"></i></span></a></div>
+              <h4 class="title"><a href="">Baby Shower</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <div class="icon"><a href=""><span class="fa-stack"><i class="fas fa-tree fa-stack-1x"></i></span></a></div>
+              <h4 class="title"><a href="">Festive Decoration</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
           </div>
