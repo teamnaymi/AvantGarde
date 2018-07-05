@@ -792,6 +792,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item:hover img {
   top: -30px;
 }
+@media (min-width: 769px) {
+    #portfolio .portfolio-item img{
+        width:300px!important;
+    }
+}
+
 
 /* Team Section
 --------------------------------*/
