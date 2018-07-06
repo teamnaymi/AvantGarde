@@ -32,7 +32,20 @@
 </head>
 
 <body>
-   
+   <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=install_email
+  page_id="1705733249505129">
+</div>
   <header id="header">
     <div class="container">
 
@@ -94,11 +107,20 @@
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">About Us</h2>
+<!--
             <p>
               <strong>Avant Garde Creations</strong> is a brainchild of Hridaya and Nishkarsh Kripalani who are <strong>professional wedding planners</strong>. </p><p>
                 We have a dynamic team comprising of <strong>creative, talented and efficient</strong> people who have the ability to make your wedding, a once in a lifetime event, the most memorable experience of your life, as it should be. </p><p> 
                 Since the last 2 years, we have been providing <strong>exquisite</strong> and <strong>regale wedding experiences</strong> which are a dream come true for many of our clients with a wide variety of services offered.
             </p>
+-->
+              <p>
+              Based in Delhi NCR, Avant Garde Creations (AGC) is a brainchild of Hridaya and Nishkarsh Kripalani who are professional wedding planners and event designers. They are backed by a team which has over 15 years of hands-on experience in the event planning and decor industry. They take their inspiration from their father who has been running a leading catering and restaurant business for the last 25 years. </p> 
+<p>
+AGC has an in-house production facility based in New Delhi, India. and a fully functional team which comprises of creative, talented and efficient people who have the ability to deliver lavish, high-quality and quirky decor for all events. 
+              </p><p>
+AGC excels for the exquisite and regale wedding decor which are a dream come true for many of their clients. The variety of services offered, range from astonishing decor to warm hospitality, and taking care of everything which would make you sweat last minute for the little details and big arrangements. 
+              </p>
 
 <!--
             <div class="icon-box wow fadeInUp">
@@ -173,7 +195,10 @@
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Services</h3>
-          <p class="section-description">At Avant Garde Creations, we believe its all about the little details to complete the decorations of any event. Our team ensures that our clients' vision and requirements for any event is fully understood, so that we can make it a reality with our creativity.</p>
+            <br>
+<!--          <p class="section-description">At Avant Garde Creations, we believe its all about the little details to complete the decorations of any event. Our team ensures that our clients' vision and requirements for any event is fully understood, so that we can make it a reality with our creativity.</p>-->
+             <p class="section-description">At Avant Garde Creations, we believe its all about the little details to complete the decorations of any event. Our team ensures that our clients' vision and requirements for any event is fully understood, so that we can make it a reality with our creativity, improvisation, experience and hard work. Our team regularly keeps updated with the new designs, concepts and technology being introduced in the industry, which we incorporate while designing for the event. 
+</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -192,9 +217,10 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-                <div class="icon"><a href=""><span class="fa-stack"><i class="fa fa-paper-plane"></i></span></a></div>
+                <div class="icon"><a href=""><span class="fa-stack"><i class="fa fa-hand-holding-heart"></i></span></a></div>
               <h4 class="title"><a href="">Reception</a></h4>
-              <p class="description">Adding radiance and spark to your very special moments</p>
+              <p class="description">
+We offer lavish and luxurious decor for our clients to receive their guests and celebrate with them in the best way possible</p>
             </div>
           </div>
 
@@ -207,9 +233,9 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-                <div class="icon"><a href=""><span class="fa-stack"><i class="fas fa-child"></i></span></a></div>
-              <h4 class="title"><a href="">Baby Shower</a></h4>
-              <p class="description">A very special moment for the whole family and with us on board, we promise to make it a cherished and jubilant event</p>
+                <div class="icon"><a href=""><span class="fa-stack"><i class="fas fa-hand-paper"></i></span></a></div>
+              <h4 class="title"><a href="">Mehendi</a></h4>
+              <p class="description">Our decor designs range from traditional carnival themes to a more modish theme for our client's mehendi experience</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -240,7 +266,9 @@
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section>
+ 
+      <!-- #call-to-action -->
 
     <!--==========================
       Portfolio Section
@@ -289,7 +317,7 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Gallery</h3>
-          <p class="section-description">Here’s a look at some our works for our very valuable customers.</p>
+          <p class="section-description">Here’s a look at some samples of our decor designs to demonstrate elegance, creativity and detailing we offer</p>
         </div>
         <div class="row">
 
@@ -327,31 +355,13 @@
             </a>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
-            <a href="">
-              <img src="img/IMG_1479.JPG"  >
-              <div class="details">
-                <h4>Wedding 3</h4>
-<!--                <span>Alored dono par</span>-->
-              </div>
-            </a>
-          </div>
+      
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
             <a href="">
               <img src="img/IMG_1485.JPG" >
               <div class="details">
                 <h4>Wedding 4</h4>
-<!--                <span>Alored dono par</span>-->
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-reception">
-            <a href="">
-              <img src="img/IMG_6844.JPG" >
-              <div class="details">
-                <h4>Reception 1</h4>
 <!--                <span>Alored dono par</span>-->
               </div>
             </a>
@@ -372,16 +382,6 @@
               <img src="img/IMG_6852.JPG" >
               <div class="details">
                 <h4>Reception 3</h4>
-<!--                <span>Alored dono par</span>-->
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-reception">
-            <a href="">
-              <img src="img/IMG_6856.JPG" >
-              <div class="details">
-                <h4>Reception 4</h4>
 <!--                <span>Alored dono par</span>-->
               </div>
             </a>
@@ -428,7 +428,9 @@
           </div>
 
         </div>
-
+          <br>
+          <br>
+          <div class='text-center'><a href='gallery.html'><button class = 'view-more'>View More</button></a></div>
       </div>
 
     </section><!-- #portfolio -->

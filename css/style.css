@@ -974,3 +974,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 strong{
     color:#eca414;
 }
+
+.view-more{
+      background: #eca414;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff!important;
+  transition: 0.4s;
+}
+.view-more:hover{
+    background: #343b40;
+}

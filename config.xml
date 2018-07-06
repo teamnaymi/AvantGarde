@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Avant Garde Creations Gallery"
+>
+  <image imageURL="img/juicebox/IMG_2400.JPG" thumbURL="img/juicebox/IMG_2400.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_3277.JPG" thumbURL="img/juicebox/IMG_3277.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_3949.JPG" thumbURL="img/juicebox/IMG_3949.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_6491.JPG" thumbURL="img/juicebox/IMG_6491.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_6861.JPG" thumbURL="img/juicebox/IMG_6861.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_7468.JPG" thumbURL="img/juicebox/IMG_7468.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9849.JPG" thumbURL="img/juicebox/IMG_9849.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9850.JPG" thumbURL="img/juicebox/IMG_9850.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9851.JPG" thumbURL="img/juicebox/IMG_9851.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9852.JPG" thumbURL="img/juicebox/IMG_9852.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9853.JPG" thumbURL="img/juicebox/IMG_9853.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9854.JPG" thumbURL="img/juicebox/IMG_9854.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9855.JPG" thumbURL="img/juicebox/IMG_9855.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9856.JPG" thumbURL="img/juicebox/IMG_9856.JPG">  </image>
+  <image imageURL="img/juicebox/IMG_9857.JPG" thumbURL="img/juicebox/IMG_9857.JPG">  </image>
+
+ 
+</juiceboxgallery>
